@@ -2,4 +2,5 @@
     Prueba
 """
 
-print('Hello GULAG')
+if __name__ == '__main__':
+    print('Hello GULAG')
