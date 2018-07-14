@@ -3,4 +3,4 @@ def hello():
     return "hello"
 
 def test_answer():
-    assert func() == "hello"
+    assert hello() == "hello"
