@@ -1,6 +1,6 @@
 # content of test_sample.py
-def func(x):
-    return x + 1
+def hello():
+    return "hello"
 
 def test_answer():
-    assert func(3) == 4
+    assert func() == "hello"
