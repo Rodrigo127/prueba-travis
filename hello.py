@@ -1,6 +1,6 @@
-"""
-    Prueba
-"""
+# content of test_sample.py
+def func(x):
+    return x + 1
 
-if __name__ == '__main__':
-    print('Hello GULAG')
+def test_answer():
+    assert func(3) == 5
